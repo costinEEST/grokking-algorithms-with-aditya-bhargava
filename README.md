@@ -17,6 +17,18 @@
 
 - In Python, arrays are called lists.
 
+# Theory 
+
+-  Algorithm times are measured in terms of growth of an algorithm.
+-  Algorithm times are written in [big O notation](https://en.wikipedia.org/wiki/Big_O_notation).
+-  Common big O run times, sorted from fastest to slowest:
+   -  `O(log n)`, also known as [logarithmic time](https://en.wikipedia.org/wiki/Time_complexity#Logarithmic_time) (binary search).
+   -  `O(n)`, also known as linear time (simple search).
+   -  `O(n * log n)`, a fast sorting algorithm (quicksort).
+   -  `O(n2)`, a slow sorting algorithm (selection sort).
+   -  `O(n!)`, a really slow algorithm (traveling salesperson).
+
+
 # Tooling 
 
 - https://code.visualstudio.com/docs/python/jupyter-support-py#_jupyter-code-cells
