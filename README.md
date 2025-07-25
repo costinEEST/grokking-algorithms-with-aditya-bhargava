@@ -25,7 +25,7 @@
    -  `O(log n)`, also known as [logarithmic time](https://en.wikipedia.org/wiki/Time_complexity#Logarithmic_time) (binary search).
    -  `O(n)`, also known as linear time (simple search).
    -  `O(n * log n)`, a fast sorting algorithm (quicksort).
-   -  `O(n2)`, a slow sorting algorithm (selection sort).
+   -  `O(n*n)`, a slow sorting algorithm (selection sort).
    -  `O(n!)`, a really slow algorithm (traveling salesperson).
 
 
@@ -33,3 +33,4 @@
 
 - https://code.visualstudio.com/docs/python/jupyter-support-py#_jupyter-code-cells
 - https://code.visualstudio.com/docs/languages/java#_install-a-java-development-kit-jdk
+- Execute a Typescript file from CLI: `node --experimental-transform-types 01_binarySearch.ts` 
