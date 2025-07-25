@@ -15,7 +15,8 @@
 
 # Syntax 
 
-- In Python, arrays are called lists.
+- In Python, arrays are called [lists](https://docs.python.org/3/library/stdtypes.html#lists).
+- [`range(start, stop[, step])`](https://docs.python.org/3/library/stdtypes.html#range)
 
 # Theory 
 
@@ -27,6 +28,11 @@
    -  `O(n * log n)`, a fast sorting algorithm (quicksort).
    -  `O(n*n)`, a slow sorting algorithm (selection sort).
    -  `O(n!)`, a really slow algorithm (traveling salesperson).
+- Lists are better if you want to insert elements into the middle.
+- Linked lists allow fast inserts an deletes. 
+- Random access (offered by arrays), means you can jump directly to a specific element.
+- Arrays are faster because they can use caching. 
+- Insertions and deletions are `O(1)`, or constant time, only if you can instantly access the element to be deleted.
 
 
 # Tooling 
